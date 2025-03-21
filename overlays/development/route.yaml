@@ -8,8 +8,8 @@ metadata:
 spec:
   host: todo.apps.ocp4.example.com
   path: "/todo"
-    to:
-      kind: Service
-      name: dev-frontend
-      weight: 100
+  to:
+    kind: Service
+    name: dev-frontend
+    weight: 100
   wildcardPolicy: None
