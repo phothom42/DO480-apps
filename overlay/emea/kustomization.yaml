@@ -9,3 +9,7 @@ images:
     newTag: 1-156
 
 nameSuffix: -emea
+
+resources:
+- route.yaml
+
